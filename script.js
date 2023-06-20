@@ -1,10 +1,10 @@
 const eGridDiv = document.getElementById("myGrid");
 const gridOptions = {
   columnDefs: [
-    { field: "Product" },
-    { field: "Category" },
-    { field: "Brand" },
-    { field: "Price" },
+    { headerName: "Product", field: "Product", sortable: true, filter: true },
+    { headerName: "Category", field: "Category", sortable: true, filter: true },
+    { headerName: "Brand", field: "Brand", sortable: true, filter: true },
+    { headerName: "Price", field: "Price", sortable: true, filter: true },
   ],
   rowData: [
     {
